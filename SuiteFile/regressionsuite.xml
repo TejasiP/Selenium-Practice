@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite parallel="tests" name="Suite">
+
+  <test name="Test case for Login functionality">
+    <classes>
+      <class name="org.Selenium.TestNg.Login_tc"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test case for Browser Code">
+    <classes>
+      <class name="org.Selenium.TestNg.BrowserCode"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

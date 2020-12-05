@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" verbose="0">
+  <test thread-count="5" parallel="tests" name="Test case for Browser Code(failed)" verbose="0">
+    <classes>
+      <class name="org.Selenium.TestNg.BrowserCode">
+        <methods>
+          <include name="edge"/>
+        </methods>
+      </class> <!-- org.Selenium.TestNg.BrowserCode -->
+    </classes>
+  </test> <!-- Test case for Browser Code(failed) -->
+</suite> <!-- Failed suite [Suite] -->
